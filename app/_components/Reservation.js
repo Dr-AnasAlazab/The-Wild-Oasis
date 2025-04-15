@@ -1,4 +1,4 @@
-import LoginMessage from "@/starter/components/LoginMessage";
+import LoginMessage from "../_components/LoginMessage";
 import { auth } from "../_lib/auth";
 import { getBookedDatesByCabinId, getSettings } from "../_lib/data-service";
 import DateSelector from "./DateSelector";
