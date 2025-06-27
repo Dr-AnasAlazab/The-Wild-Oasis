@@ -72,10 +72,10 @@ export async function createBooking(bookingData, formData) {
     guestId: session.user.guestId,
     numGuests: Number(formData.get("numGuests")),
     observations: formData.get("observations").slice(0, 1000),
-    extraPrice: 0,
+    extrasPrice: 0,
     totalPrice: bookingData.cabinPrice,
     isPaid: false,
-    hasBreakFast: false,
+    hasBreakfast: false,
     status: "unconfirmed",
   };
   console.log(newBooking);

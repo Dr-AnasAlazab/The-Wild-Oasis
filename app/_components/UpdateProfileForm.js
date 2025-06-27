@@ -9,7 +9,7 @@ function UpdateProfileForm({ guest, children }) {
   const [count, setCount] = useState();
 
   const { fullName, email, nationality, nationalID, countryFlag } = guest;
-  ``;
+
   return (
     <form
       action={updateGuest}
@@ -43,7 +43,7 @@ function UpdateProfileForm({ guest, children }) {
             height={20}
             src={countryFlag}
             alt="Country flag"
-            className=" rounded-sm"
+            className="rounded-sm"
           />
         </div>
 
